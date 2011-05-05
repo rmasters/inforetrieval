@@ -1,0 +1,9 @@
+Add more sample documents
+Add a proper stop list
+Decide on case-sensitivity of terms (lower-case?)
+Move to PDO_MySQL or PDO_Postgres based on best support (e.g. PDO_SQLite has errors with things like PDO_Stmt::rowCount())
+Add advanced query selectors (e.g. +mandatory_keyword "exact phrases containing spaces" -exclusions)
+Restructure so that the query builder can be used as a component in other projects
+Port the indexer to a more appropriate language (PHP isn't very speedy, C or Python might be nice)
+Add document attributes
+Add document attribute selectors (e.g. title:"exact title name", in:title:"partial title name" (in:attr: is a attribute modifier))
